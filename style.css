@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.containerdiv{
+    display:flex;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    border: solid;
+    border-radius: 10px;
+    margin: 10px 10px;
+    background-color: chocolate;
+}
