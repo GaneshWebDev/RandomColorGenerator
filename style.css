@@ -1,20 +1,19 @@
 body{
-    display: flex;
+    margin: 0px;
+    display:flex;
     flex-direction: column;
     align-items: center;
 }
 .container{
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.containerdiv{
-    display:flex;
-    height: 100px;
-    width: 100px;
-    padding: 30px;
+    margin: 15px;
     border: solid;
-    border-radius: 10px;
-    margin: 10px 10px;
-    background-color: chocolate;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: brown;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+.containerBox{
+    display: flex;
+    flex-wrap: wrap;
 }
